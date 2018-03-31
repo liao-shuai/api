@@ -4,6 +4,13 @@
     <list>
       <list>
         <remote-mappings server-id="python@ssh://root@119.23.203.236:22/usr/bin/python" />
+        <remote-mappings server-id="python@ssh://root@119.23.203.236:22/home/vir/mywear/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$/iot08-api" remote-root="/jy/mywear/api" />
+            </list>
+          </settings>
+        </remote-mappings>
       </list>
     </list>
   </component>

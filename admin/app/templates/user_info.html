@@ -1,0 +1,40 @@
+{% extends "index.html" %}
+
+{% block title %}首页{% endblock %}
+
+{% block content %}
+
+
+<div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="x_panel" data-ng-init="getRecords()">
+        <div class="x_title">
+                <div>
+                    <h2 class="pull-left">{{ user }}的解绑信息</h2>
+                </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+
+        <div class="x_content">
+            <table class="table table-striped table-bordered dataTable no-footer">
+                <thead>
+                <tr>
+                    <th>解绑时间</th>
+                    <th>解绑的 imei </th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for data in datas %}
+                <tr>
+                    <td>{{ '%d-%d-%d %s:%s:%s'|
+                        format(data.time.year,data.time.month, data.time.day,
+                        data.time.hour,data.time.minute,data.time.second) }}</td>
+                    <td>{{ data.imei }}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+{% endblock %}

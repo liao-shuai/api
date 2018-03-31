@@ -40,3 +40,9 @@ http://www.jb51.net/article/127442.htm
 
 python字典嵌套字典的情况下获取某个key的value
 https://www.cnblogs.com/hahaweixiaohenqingcheng/archive/2016/11/14/6062961.html
+
+
+
+supervisord简介，配置及使用
+https://www.cnblogs.com/jasonkoo/articles/3750638.html
+https://blog.csdn.net/shudaqi2010/article/details/51153961

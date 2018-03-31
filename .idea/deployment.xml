@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="step">
+    <serverData>
+      <paths name="admin_sftp">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/jy/mywear/admin" local="$PROJECT_DIR$/admin" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="step">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/jy/mywear/api" local="$PROJECT_DIR$/api" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
